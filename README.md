@@ -1,5 +1,27 @@
-ΙΩΑΝΝΑ ΛΥΚΟΥΔΗ 1115201400091
-ΔΗΜΗΤΡΑ ΑΒΡΑΜΙΔΟΥ 1115201400001
+IOANNA LYKOUDI 1115201400091
+DIMITRA AVRAMIDOU 1115201400001
+
+The implementation consists of a Publisher, a Subscriber & MQTT Broker.
+
+The message is transmitted from Publisher to Subscriber via MQTT Broker
+in conjunction with Paho.
+
+Publisher: Developed and implemented in Eclipse. The user inputs the 
+trasmitted message. It is important to mention that in order to finally
+achieve the correct transmission of the message, it is necessary to define
+the same topic simultaneously in Publisher & Subscriber.
+
+Subscriber: Developed and implemented on Android Studio. To make the connection
+and eventually the mobile device receives the message, there must be an interface
+between the computer and the mobile. Thus, the publisher connects to localhost and
+the subscriber to the computer's ip. All of the above work on condition that they 
+are connected at the same port (1883). When the message finally arrives at the mobile
+device, the user is alerted by sound and visual notification, ie by activating the
+flash and playing notification sound of our choice.
+
+
+_______________________________________________________________________________________
+
 
 Η υλοποίηση αποτελείται από έναν Publisher, έναν Subscriber & MQTT Broker.
 
